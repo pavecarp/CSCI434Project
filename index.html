@@ -12,23 +12,65 @@
 <title>Black Ibis Boats</title>
 
 <style>
-  a:hover {color: aquamarine}
-  
+
 body {
-  background-color: white;
-  margin: 0 10%;
+  background-color: light grey;
+  margin: 1%;
   font-family: century gothic;
   }
 
 h1 {
-  text-align: left;
+  text-align: center;
   font-family: century gothic;
-  font-weight: normal;
-  text-transform: uppercase;
-  border-bottom: 1px solid aquamarine;
+  font-size: 12px;
   margin-top: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
+
+.header {
+  overflow: hidden;
+  background-color: #F1F1F1;
+  padding: 10px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  font-family: century gothic;
+  text-transform: lowercase;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 5px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #48C9B0;
+  color: white;
+}
+
+.header a.active {
+  background-color: #7B7D7D;
+  color: white;
+
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+a:hover {color: aquamarine}
 
 h2 {
   color: black;
@@ -41,14 +83,30 @@ small {
   font-family: century gothic;
 }
 
+
+
 </style>
+
+
 </head>
 
 <body>
 
-<h1><img src="Logo.png" alt="Black Ibis Boats"
-  width="215"
-  height="200"/><br>Black Ibis Boats</h1>
+<div class="header">
+  <img src="Logo3.png" alt="Black Ibis Boats"
+  width="520"
+  height="214"/>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="How_To.html">How To</a>
+  </div>
+</div>
+
+<h1><iframe src="https://player.vimeo.com/video/382663900?h=be5568fad6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/382663900">Cobia Boats 2020</a> from <a href="https://vimeo.com/mbgboats">Maverick Boat Group</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</h1>
 
 <h2>Engineered to Perform<!--add hyperlink to specifications page--></h2>
 <p>Black Ibis Boats are engineered to exact specifications to guarantee that anglers
@@ -91,6 +149,8 @@ worldwide for their cool looks and visible floating properties.</p>
 <a href="https://tpwd.texas.gov/fishboat/fish/action/reptmap.php?EcoRegion=GC">Texas Gulf Coast Fishing Report</a><br>
 <a href="https://www.columbia.com/c/fishing/">Moisture-Wicking T-Shirts</a><br>
 <a href="https://fish.shimano.com/content/fish/northamerica/us/en/homepage.html">Necessary Hardware</a></p>
+
+
 
 <small>2021, Stephen Carpenter</small>
 </body>
