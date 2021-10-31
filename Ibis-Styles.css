@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body (
+
+}
+
+/* link styles */
+
+
+/* header styles */
+header {
+
+}
+header p {
+
+}
+
+/* footer styles */
+footer {
+
+}
+
+/* main styles */
+main {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+
+/* aside styles */
+aside {
+
+}
